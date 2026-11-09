@@ -1,0 +1,19 @@
+{
+  "name": "@iamdangavin/discovery",
+  "version": "1.0.0",
+  "description": "A Claude Code skill that interviews you about a plan using the AskUserQuestion tool. Based on Matt Pocock's grill-me.",
+  "files": ["SKILL.md", "postinstall.js"],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": ["claude", "claude-code", "skill", "agent-skill"],
+  "author": "Dan Gavin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdangavin/discovery.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
